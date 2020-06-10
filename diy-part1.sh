@@ -18,11 +18,11 @@ sed -i '$a src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng' feeds.conf.default
 sed -i '$a src-git coolsnowwolf https://github.com/coolsnowwolf/packages' feeds.conf.default
-sed -i '$a packages2 https://git.openwrt.org/feed/packages.git' feeds.conf.default
-sed -i '$a luci2 https://git.openwrt.org/project/luci.git' feeds.conf.default
-sed -i '$a routing2 https://git.openwrt.org/feed/routing.git' feeds.conf.default
-sed -i '$a telephony2 https://git.openwrt.org/feed/telephony.git' feeds.conf.default
-sed -i '$a video https://github.com/openwrt/video.git' feeds.conf.default
-sed -i '$a targets https://github.com/openwrt/targets.git' feeds.conf.default
-sed -i '$a management https://github.com/openwrt-management/packages.git' feeds.conf.default
+sed -i '$a src-git packages2 https://git.openwrt.org/feed/packages.git' feeds.conf.default
+sed -i '$a src-git luci2 https://git.openwrt.org/project/luci.git' feeds.conf.default
+sed -i '$a src-git routing2 https://git.openwrt.org/feed/routing.git' feeds.conf.default
+sed -i '$a src-git telephony2 https://git.openwrt.org/feed/telephony.git' feeds.conf.default
+sed -i '$a src-git video https://github.com/openwrt/video.git' feeds.conf.default
+sed -i '$a src-git targets https://github.com/openwrt/targets.git' feeds.conf.default
+sed -i '$a src-git management https://github.com/openwrt-management/packages.git' feeds.conf.default
 #src-git oldpackages http://git.openwrt.org/packages.git
