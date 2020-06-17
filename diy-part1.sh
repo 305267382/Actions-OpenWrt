@@ -12,10 +12,10 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git packages https://github.com/coolsnowwolf/packages.git' feeds.conf.default
-sed -i '$a src-git luci https://github.com/coolsnowwolf/luci.git' feeds.conf.default
-sed -i '$a src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07' feeds.conf.default
-sed -i '$a src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07' feeds.conf.default
+sed -i '$a src-git packages2 https://github.com/coolsnowwolf/packages.git' feeds.conf.default
+sed -i '$a src-git luci2 https://github.com/coolsnowwolf/luci.git' feeds.conf.default
+sed -i '$a src-git routing2 https://git.openwrt.org/feed/routing.git;openwrt-19.07' feeds.conf.default
+sed -i '$a src-git telephony2 https://git.openwrt.org/feed/telephony.git;openwrt-19.07' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git' feeds.conf.default
 sed -i '$a src-git packages1 https://git.openwrt.org/feed/packages.git' feeds.conf.default
 sed -i '$a src-git luci1 https://git.openwrt.org/project/luci.git' feeds.conf.default
