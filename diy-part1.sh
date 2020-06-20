@@ -13,11 +13,6 @@
 
 # Add a feed source
 
-sed -i '$a src-git  packages https://github.com/coolsnowwolf/packages' feeds.conf.default
-sed -i '$a src-git  luci https://github.com/coolsnowwolf/luci' feeds.conf.default
-sed -i '$a src-git  routing https://git.openwrt.org/feed/routing.git;openwrt-19.07' feeds.conf.default
-sed -i '$a src-git  telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07' feeds.conf.default
-sed -i '$a src-git  helloworld https://github.com/fw876/helloworld' feeds.conf.default
+
 sed -i '$a src-git  xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng' feeds.conf.default
-sed -i '$a src-git  coolsnowwolf https://github.com/coolsnowwolf/packages' feeds.conf.default
 sed -i '$a src-git  node https://github.com/nxhack/openwrt-node-packages.git' feeds.conf.default
